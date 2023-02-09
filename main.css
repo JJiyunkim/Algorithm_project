@@ -1,0 +1,231 @@
+@font-face {
+    font-family: 'IM_Hyemin-Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2106@1.1/IM_Hyemin-Bold.woff2') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.hr-dotted{
+    border: 0;
+    border-top: 3px dotted #FD8A69;
+    height: 1px;
+}
+
+body {
+    background-color: #fffdf8;
+    font-family: 'IM_Hyemin-Bold'; 
+}
+
+#list{
+    margin-left: 7%;
+    font-size: 16px;
+}
+
+::placeholder{
+    color: black;
+    text-align: center;
+}
+.container{
+    display: flex; 
+    align-items:center; 
+    flex-direction: column;
+}
+
+h5{
+    margin-top : -5px;
+}
+
+.tt {
+    /* font-family: 'TTCrownMychewR'; */
+    font-family: 'IM_Hyemin-Bold';
+}
+
+/* calender */
+#time{
+    font-size: xx-large;
+    text-align: center;
+}
+
+.calender{
+    display: flex;
+    flex-direction: row;
+}
+
+.calender-img {
+    position: relative;
+}
+
+.calender-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate( -50%, -50% );
+    color: black;
+    font-size: 90px;
+}
+
+/* card */
+.card-header{
+    font-size: large;
+    width:fit-content;
+    border-radius: 5px;
+    background-color:#ead49f;
+    margin-bottom: 0;
+    margin-top: 0;
+    margin-left: 7%;
+    padding: 2px;
+}
+
+.card-body{
+    width: fit-content;
+    border-radius: 5px;
+    border: 2px solid #ead49f;
+    margin-bottom: 2px;
+    margin-left: 7%;
+}
+
+.card-text{
+    font-size: medium;
+    text-align: left;
+    margin: 2px;
+    padding: 2px;
+}
+
+/* btn */
+.btn{
+    background-color:#ead49f;
+    border-color: #ead49f;
+    border-radius: 12px;
+    margin: 2px;
+    font-size: medium;
+}
+
+.btn:hover{
+    background-color: #F1CE7D;
+}
+
+.btn2{
+    background-color:#fba38b;
+    border-color: #fba38b;
+    border-radius: 12px;
+}
+
+.btn2:hover{
+    background-color:#FD8A69;
+    border-color: #FD8A69;
+    border-radius: 12px;
+}
+
+.back {
+    width: 100px;
+    height: 100px;
+    margin-top: 35px;
+    position: absolute;
+    right: 10%;
+    top: 7%;
+}
+
+.main-btn{
+    margin-bottom: 30px; 
+    font-size : 20px; 
+    padding: 10px; 
+    width: 500px;
+    margin-bottom: 10px;
+}
+
+/* title */
+.title {
+    font-family: 'IM_Hyemin-Bold'; 
+    text-align: center;
+    /* font-size: 20px; */
+}
+
+.title-step{
+    display: flex; 
+    flex-direction: row;
+}
+
+.title-text{
+    color : #FD8A69; 
+    font-size: 50px;
+    margin-left:10%; 
+    margin-top: 7%;
+}
+
+.logo{
+    width: 15%; 
+    margin-left: 5%;
+}
+
+p{
+    font-family: 'IM_Hyemin-Bold'; 
+    text-align: left;
+    font-size: 20px;
+}
+
+/* table */
+table{
+    justify-content: center;
+    font-size: 16px;
+    /* border-spacing: 7px;
+    border-collapse: separate; */
+}
+
+th {
+    color: black;
+    border-collapse: collapse;
+    border-bottom: 2px solid;
+    border-color: #FD8A69;
+    text-align: center;
+    min-width: max-content;
+    padding: 5px;
+    padding-left: 7px;
+    padding-right: 7px;
+}
+
+td{
+    color: black;
+    border-collapse: collapse;
+    border-bottom: 1px solid;
+    border-color:#fba38b;
+    text-align: center;
+    padding: 5px;
+}
+
+label{
+    background-color: #ead49f;
+    border-radius: 8px;
+}
+
+/* input ; form-control */
+.form-control{
+    text-align: center; 
+    border-radius: 5px;
+    font-size: medium;
+    margin: 3px;
+}
+
+.form-group{
+    align-items: center;
+    margin: 2px;
+    margin-left: 7%;
+}
+
+/* checkbox, radiobutton */
+input{
+    accent-color: #FD8A69;
+}
+
+.checklabel{
+    background-color: #fffdf8;
+    font-size: 14px;
+    position: relative;
+    top: -1.5px;
+    font-size: medium;
+}
+
+.radio{
+    align-items: center;
+    margin: 5px;
+    margin-left: 7%;
+}

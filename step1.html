@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Step 1</title>
+    <link rel="stylesheet" href="./main.css">
+    <link rel="icon" href="./favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <div class="title-step">
+        <img class="logo" src="./logo.png"> 
+        <h1 class="title-text">Step 1. 과제 목록 입력하기</h1>
+        <a href="./main.html"><img class="back" src="./back.png"></a>
+    </div>
+    <div class="card">
+        <h4 class="card-header"><안내 사항></h4>
+        <div class="card-body">
+            <h5 class="card-text">
+                * 과제 정보를 입력한 후 <저장> 버튼을 누르고, <추가> 버튼을 눌러야 합니다.
+                <br>
+                * <추가> 버튼을 눌러서 생긴 입력창은 <삭제> 가능하지만, <저장> 버튼까지 누른 입력창은 <삭제> 불가능합니다.
+            </h5>
+        </div>
+    </div>
+    <input type="button" value="추가" class="tt btn" onclick="add_div()" style="margin-left: 7%">
+    <input type="button" value="저장" class="tt btn" onclick="save_div()">
+    <hr class="hr-dotted">
+    <div class="form-group" id="form0">
+        <label style="margin-right: 7px;">1</label>                    
+        <label for="major0" class="checklabel">전공</label> 
+        <input type="checkbox" id="major0" placeholder="전공" class="tt form-control" style="margin-left: 0px;"/>  
+        <input type="text" id="title0" name="title" class="tt form-control" placeholder="과제"/>  
+        <input type="datetime-local" id="date0" class="tt form-control" placeholder="마감일"/>
+        <input type="number" id="time0" class="tt form-control" placeholder="걸리는 시간"/>
+        <input type="button" id="remove0" value="삭제" class="tt btn" onclick="remove_div(this)">
+    </div>
+    <div id="field"></div>
+    <script src="step1.js"></script>
+</body>
+</html>

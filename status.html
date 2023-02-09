@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>과제 현황</title>
+    <link rel="stylesheet" href="./main.css">
+    <link rel="icon" href="./favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <div class="title-step">
+        <img class="logo" src="./logo.png"> 
+        <h1 class="title-text" style="margin-left: 15%;">과제 현황 확인하기</h1>
+        <a href="./main.html"><img class="back" src="./back.png"></a>
+    </div>
+    <div class="card">
+        <div class="card-header">정렬 기준 선택</div>
+        <input class="radio" type="radio" name="sort" value="date" onclick="sort_date()" style="margin-top:15px" checked> 마감일
+        <br>
+        <input class="radio" type="radio" name="sort" value="time" onclick="sort_time()"> 걸리는 시간
+    </fieldset>
+    <hr class="hr-dotted">
+    <div id="list"></div>
+    <script src="status.js"></script>
+</body>
+</html>

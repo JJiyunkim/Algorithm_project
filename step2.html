@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Step 2</title>
+    <link rel="stylesheet" href="./main.css">
+    <link rel="icon" href="./favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <div class="title-step">
+        <img class="logo" src="./logo.png"> 
+        <h1 class="title-text" style="margin-left: 5%">Step 2. 오늘 공부할 시간 입력하기</h1>
+        <a href="./main.html"><img class="back" src="./back.png"></a>
+    </div>
+    <hr class="hr-dotted">
+    <div class="calender">
+        <div class="calender-img" style="margin-left: 30%">
+            <img src="calender.png" height="300" width="200" >
+            <span id="month" class="calender-text"></span>
+        </div>
+        <div class="calender-img">
+            <img src="calender.png" height="300" width="200">
+            <span id="date" class="calender-text"></span>
+        </div>
+        <div class="calender-img">
+            <img src="calender.png" height="300" width="200">
+            <span id="week" class="calender-text"></span>
+        </div>
+    </div>  
+    <div id="time"></div>
+    <br>
+    <div class="form-group" style="margin-left: 45%; margin-top: 0%; font-size: x-large">
+        <label for="studytime">오늘 공부할 시간</label> 
+        <br>
+        <input type="number" id="studytime" placeholder="시간" class="tt form-control" style="font-size: large; width: 100px;"/>
+        <input type="button" value="저장" class="tt btn" onclick="save_time()">
+    </div>
+    <script src="step2.js"></script> 
+</body>
+</html>

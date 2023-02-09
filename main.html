@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>하루 플랜</title>
+    <link rel="stylesheet" href="./main.css">
+    <link rel="icon" href="./favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <div class="title">
+        <img class="logo" src="./logo.png" style="margin-left: 0px"> 
+        <hr class="hr-dotted"><br><br>
+    </div>
+    <div class="container">
+        <input  
+            onclick="location.href='./step1.html'" 
+            type="button" 
+            class="tt btn main-btn"
+            value="Step1. 과제 목록 입력하기">
+        </input>
+        <input
+            onclick="location.href='./step2.html'"
+            type="button" 
+            class="tt btn main-btn"
+            value="Step 2. 공부할 시간 입력하기">
+        </input>
+        <input
+            onclick="location.href='./step3.html'" 
+            type="button" 
+            class="tt btn main-btn"
+            value="Step 3. 오늘의 과제장 보기">
+        </input>
+        <input 
+            onclick="location.href='./status.html'" 
+            type="button" 
+            class="tt btn2 main-btn"
+            value="과제 현황 확인하기">
+        </input>
+        <input
+            onclick="refresh()"
+            type="button" 
+            class="tt btn2 main-btn"
+            value="과제 목록 초기화하기">
+        </input>
+    </div>
+    <script src="status.js"></script>
+</body>
+<footer>
+    <br><hr class="hr-dotted"><br>
+    <div class="container">
+        <h5>3조_알리바이_김지윤 김회민 이재림 임혜림</h5>
+    </div>
+</footer>
+</html>
