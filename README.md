@@ -1,7 +1,7 @@
 # 사용 언어 : HTML, CSS, Javascript
 
-## 하루플랜 
-logo.png
+## 하루플랜
+<img src="logo.png" width=150>
 
 ### 🔗링크
 https://jjiyunkim.github.io/Algorithm_project/
